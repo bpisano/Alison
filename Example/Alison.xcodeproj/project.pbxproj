@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		32DA0C8B1776D362212226B4 /* Pods_Alison_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1639B8F8EA93577E9CDA6F56 /* Pods_Alison_Example.framework */; };
+		503960B622A0317F00FAF991 /* alison.gif in Resources */ = {isa = PBXBuildFile; fileRef = 503960B522A0317F00FAF991 /* alison.gif */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		1DA5AC6B8D40D0787ADA7EB0 /* Pods-Alison_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alison_Example.release.xcconfig"; path = "Target Support Files/Pods-Alison_Example/Pods-Alison_Example.release.xcconfig"; sourceTree = "<group>"; };
 		22FD84E13A889D76FDD3220E /* Alison.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Alison.podspec; path = ../Alison.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3863531DF0D36CBC5EED600F /* Pods-Alison_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alison_Example.debug.xcconfig"; path = "Target Support Files/Pods-Alison_Example/Pods-Alison_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		503960B522A0317F00FAF991 /* alison.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = alison.gif; sourceTree = "<group>"; };
 		5217EF2DC71EB962C6F1B330 /* Pods-Alison_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alison_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Alison_Tests/Pods-Alison_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* Alison_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alison_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		503960B422A0316C00FAF991 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				503960B522A0317F00FAF991 /* alison.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		52799D6BEDA552ABD5AB89B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 				22FD84E13A889D76FDD3220E /* Alison.podspec */,
 				6E1F7502EFBF5250057B10FB /* README.md */,
 				DA238D395859030743421603 /* LICENSE */,
+				503960B422A0316C00FAF991 /* Images */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -180,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				503960B622A0317F00FAF991 /* alison.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

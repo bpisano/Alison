@@ -58,7 +58,7 @@ Alison require **iOS 11.0** and **Swift 5**.
 
 ## Author
 
-Alison is made by me, Benjamin Pisano. If you want to talk with me, you can contact me on Twitter (@benjamin_pisano)[https://twitter.com/benjamin_pisano].
+Alison is made by me, Benjamin Pisano. If you want to talk with me, you can contact me on Twitter [@benjamin_pisano](https://twitter.com/benjamin_pisano).
 
 ## License
 
