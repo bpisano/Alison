@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Alison'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Alison the bot. A bot animation in SpriteKit'
 
 # This description is used to generate tags and improve search results.
@@ -32,11 +32,11 @@ Alison is a cool bot animation written with SpriteKit. It can be used for a chat
   s.swift_version = '5.0'
 
   s.source_files = 'Alison/Classes/**/*'
-  #s.resources = 'Alison/Assets/*.xcassets'
+  s.resources = 'Alison/Assets/**/*'
   
-  s.resource_bundles = {
-    'Alison' => ['Alison/Assets/**']
-  }
+  #s.resource_bundles = {
+  #  'Alison' => ['Alison/Assets/**']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
