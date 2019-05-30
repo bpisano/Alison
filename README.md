@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/Alison.svg?style=flat)](https://cocoapods.org/pods/Alison)
 [![Platform](https://img.shields.io/cocoapods/p/Alison.svg?style=flat)](https://cocoapods.org/pods/Alison)
 
+![Alison gif](Example/Images/alison.gif)
+
 ## Get Started
 
 Alison is a cool and easy to use animation for your bot. You can use an `ALView` to create an animation in your app :
