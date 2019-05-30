@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Alison'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Alison the bot. A bot animation in SpriteKit'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Alison is a cool bot animation written with SpriteKit. It can be used for a chatbot icon for example.
                        DESC
 
   s.homepage         = 'https://github.com/bpisano/Alison'
@@ -29,6 +29,7 @@ TODO: Add long description of the pod here.
   s.social_media_url = 'https://twitter.com/benjamin_pisano'
 
   s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'Alison/Classes/**/*'
   s.resources = 'Alison/Assets/*.xcassets'

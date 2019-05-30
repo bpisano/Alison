@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		141C640C1582A8D1E4D00F79A639F434 /* Pods-Alison_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3F018D8E9B7CCA7077F4AA1A69C051 /* Pods-Alison_Tests-dummy.m */; };
 		37638EA7F66EF46375B61870A3B64C6B /* Alison-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA6906A7651F4EF063BFA4FF27FBC45 /* Alison-dummy.m */; };
-		5057C8D6229FDAE900243DF8 /* AnimationLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8D1229FDAE900243DF8 /* AnimationLight.swift */; };
-		5057C8D7229FDAE900243DF8 /* AnimationCircleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8D2229FDAE900243DF8 /* AnimationCircleLight.swift */; };
-		5057C8D8229FDAE900243DF8 /* AnimationRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8D3229FDAE900243DF8 /* AnimationRay.swift */; };
-		5057C8D9229FDAE900243DF8 /* AnimationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8D4229FDAE900243DF8 /* AnimationScene.swift */; };
-		5057C8DA229FDAE900243DF8 /* AnimationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8D5229FDAE900243DF8 /* AnimationPath.swift */; };
-		5057C8E4229FDB3D00243DF8 /* ALView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8E2229FDB3D00243DF8 /* ALView.swift */; };
-		5057C8E5229FDB3D00243DF8 /* ALContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C8E3229FDB3D00243DF8 /* ALContentView.swift */; };
-		5057C8E8229FDB4F00243DF8 /* AlisonContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5057C8E7229FDB4F00243DF8 /* AlisonContentView.xib */; };
-		5057C8EE229FDEAE00243DF8 /* RayParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5057C8ED229FDEAE00243DF8 /* RayParticle.sks */; };
-		5057C8F0229FE01700243DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5057C8EF229FE01700243DF8 /* Assets.xcassets */; };
+		5057C919229FE82A00243DF8 /* AnimationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C911229FE82A00243DF8 /* AnimationPath.swift */; };
+		5057C91A229FE82A00243DF8 /* AnimationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C912229FE82A00243DF8 /* AnimationScene.swift */; };
+		5057C91B229FE82A00243DF8 /* AnimationCircleLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C913229FE82A00243DF8 /* AnimationCircleLight.swift */; };
+		5057C91C229FE82A00243DF8 /* AnimationLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C914229FE82A00243DF8 /* AnimationLight.swift */; };
+		5057C91D229FE82A00243DF8 /* AnimationRay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C915229FE82A00243DF8 /* AnimationRay.swift */; };
+		5057C91E229FE82A00243DF8 /* ALContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C917229FE82A00243DF8 /* ALContentView.swift */; };
+		5057C91F229FE82A00243DF8 /* ALView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5057C918229FE82A00243DF8 /* ALView.swift */; };
+		5057C923229FE84500243DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5057C920229FE84500243DF8 /* Assets.xcassets */; };
+		5057C924229FE84500243DF8 /* RayParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5057C921229FE84500243DF8 /* RayParticle.sks */; };
+		5057C925229FE84500243DF8 /* AlisonContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5057C922229FE84500243DF8 /* AlisonContentView.xib */; };
 		7BEA75DC5619A5DA9B2D71BAC181C7AC /* Pods-Alison_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 618FF90A6B98410907F554E38CF443ED /* Pods-Alison_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836F807349BD7E487C4C74BA5C3E3339 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		AD5B7BC16DD80BB39F61BA1B229E7215 /* Pods-Alison_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6C6862F3FDE8CAA5E8647EB5F6B9453 /* Pods-Alison_Example-dummy.m */; };
@@ -55,16 +55,16 @@
 		2152D9D6DD0D10E5E22794AE86A5896D /* Pods-Alison_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Alison_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		28A9DE9A404344650C73F2CC4A8A9EE9 /* Alison-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alison-umbrella.h"; sourceTree = "<group>"; };
 		42F1152E7993892506498403F65AD81C /* Alison.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alison.xcconfig; sourceTree = "<group>"; };
-		5057C8D1229FDAE900243DF8 /* AnimationLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationLight.swift; sourceTree = "<group>"; };
-		5057C8D2229FDAE900243DF8 /* AnimationCircleLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCircleLight.swift; sourceTree = "<group>"; };
-		5057C8D3229FDAE900243DF8 /* AnimationRay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationRay.swift; sourceTree = "<group>"; };
-		5057C8D4229FDAE900243DF8 /* AnimationScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationScene.swift; sourceTree = "<group>"; };
-		5057C8D5229FDAE900243DF8 /* AnimationPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPath.swift; sourceTree = "<group>"; };
-		5057C8E2229FDB3D00243DF8 /* ALView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALView.swift; sourceTree = "<group>"; };
-		5057C8E3229FDB3D00243DF8 /* ALContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALContentView.swift; sourceTree = "<group>"; };
-		5057C8E7229FDB4F00243DF8 /* AlisonContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlisonContentView.xib; sourceTree = "<group>"; };
-		5057C8ED229FDEAE00243DF8 /* RayParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = RayParticle.sks; sourceTree = "<group>"; };
-		5057C8EF229FE01700243DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5057C911229FE82A00243DF8 /* AnimationPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationPath.swift; sourceTree = "<group>"; };
+		5057C912229FE82A00243DF8 /* AnimationScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationScene.swift; sourceTree = "<group>"; };
+		5057C913229FE82A00243DF8 /* AnimationCircleLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCircleLight.swift; sourceTree = "<group>"; };
+		5057C914229FE82A00243DF8 /* AnimationLight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationLight.swift; sourceTree = "<group>"; };
+		5057C915229FE82A00243DF8 /* AnimationRay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationRay.swift; sourceTree = "<group>"; };
+		5057C917229FE82A00243DF8 /* ALContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALContentView.swift; sourceTree = "<group>"; };
+		5057C918229FE82A00243DF8 /* ALView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ALView.swift; sourceTree = "<group>"; };
+		5057C920229FE84500243DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Alison/Assets/Assets.xcassets; sourceTree = "<group>"; };
+		5057C921229FE84500243DF8 /* RayParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = RayParticle.sks; path = Alison/Assets/RayParticle.sks; sourceTree = "<group>"; };
+		5057C922229FE84500243DF8 /* AlisonContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AlisonContentView.xib; path = Alison/Assets/AlisonContentView.xib; sourceTree = "<group>"; };
 		5780F37BE2CDFBF0A1DABCCDB1E193CD /* Pods-Alison_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Alison_Example.modulemap"; sourceTree = "<group>"; };
 		618FF90A6B98410907F554E38CF443ED /* Pods-Alison_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Alison_Tests-umbrella.h"; sourceTree = "<group>"; };
 		62F4299F82DEDB396D68BB8CC0D5C655 /* Pods_Alison_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alison_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,46 +147,37 @@
 			path = "Target Support Files/Pods-Alison_Tests";
 			sourceTree = "<group>";
 		};
-		5057C8DB229FDB0C00243DF8 /* Classes */ = {
+		5057C90F229FE7D900243DF8 /* Ressources */ = {
 			isa = PBXGroup;
 			children = (
-				5057C8E6229FDB4100243DF8 /* Bot View */,
-				5057C8E1229FDB2500243DF8 /* Animation */,
+				5057C922229FE84500243DF8 /* AlisonContentView.xib */,
+				5057C921229FE84500243DF8 /* RayParticle.sks */,
+				5057C920229FE84500243DF8 /* Assets.xcassets */,
 			);
-			name = Classes;
-			path = Alison/Classes;
+			name = Ressources;
 			sourceTree = "<group>";
 		};
-		5057C8DD229FDB0C00243DF8 /* Assets */ = {
+		5057C910229FE82A00243DF8 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				5057C8E7229FDB4F00243DF8 /* AlisonContentView.xib */,
-				5057C8ED229FDEAE00243DF8 /* RayParticle.sks */,
-				5057C8EF229FE01700243DF8 /* Assets.xcassets */,
+				5057C911229FE82A00243DF8 /* AnimationPath.swift */,
+				5057C912229FE82A00243DF8 /* AnimationScene.swift */,
+				5057C913229FE82A00243DF8 /* AnimationCircleLight.swift */,
+				5057C914229FE82A00243DF8 /* AnimationLight.swift */,
+				5057C915229FE82A00243DF8 /* AnimationRay.swift */,
 			);
-			name = Assets;
-			path = Alison/Assets;
+			name = Animation;
+			path = Alison/Classes/Animation;
 			sourceTree = "<group>";
 		};
-		5057C8E1229FDB2500243DF8 /* Animation */ = {
+		5057C916229FE82A00243DF8 /* Bot View */ = {
 			isa = PBXGroup;
 			children = (
-				5057C8D2229FDAE900243DF8 /* AnimationCircleLight.swift */,
-				5057C8D1229FDAE900243DF8 /* AnimationLight.swift */,
-				5057C8D5229FDAE900243DF8 /* AnimationPath.swift */,
-				5057C8D3229FDAE900243DF8 /* AnimationRay.swift */,
-				5057C8D4229FDAE900243DF8 /* AnimationScene.swift */,
+				5057C917229FE82A00243DF8 /* ALContentView.swift */,
+				5057C918229FE82A00243DF8 /* ALView.swift */,
 			);
-			path = Animation;
-			sourceTree = "<group>";
-		};
-		5057C8E6229FDB4100243DF8 /* Bot View */ = {
-			isa = PBXGroup;
-			children = (
-				5057C8E3229FDB3D00243DF8 /* ALContentView.swift */,
-				5057C8E2229FDB3D00243DF8 /* ALView.swift */,
-			);
-			path = "Bot View";
+			name = "Bot View";
+			path = "Alison/Classes/Bot View";
 			sourceTree = "<group>";
 		};
 		50DBE93E55E3531C185BF1027A631703 /* Pods-Alison_Example */ = {
@@ -217,8 +208,9 @@
 		6C118F79E208CC3188CBDD204476F558 /* Alison */ = {
 			isa = PBXGroup;
 			children = (
-				5057C8DD229FDB0C00243DF8 /* Assets */,
-				5057C8DB229FDB0C00243DF8 /* Classes */,
+				5057C910229FE82A00243DF8 /* Animation */,
+				5057C916229FE82A00243DF8 /* Bot View */,
+				5057C90F229FE7D900243DF8 /* Ressources */,
 				8F3457CF369A2859479402AFD90EE83A /* Pod */,
 				19C44CB304EC9B5C9CE84D9CED3D2203 /* Support Files */,
 			);
@@ -421,9 +413,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5057C8E8229FDB4F00243DF8 /* AlisonContentView.xib in Resources */,
-				5057C8F0229FE01700243DF8 /* Assets.xcassets in Resources */,
-				5057C8EE229FDEAE00243DF8 /* RayParticle.sks in Resources */,
+				5057C924229FE84500243DF8 /* RayParticle.sks in Resources */,
+				5057C923229FE84500243DF8 /* Assets.xcassets in Resources */,
+				5057C925229FE84500243DF8 /* AlisonContentView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,13 +443,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37638EA7F66EF46375B61870A3B64C6B /* Alison-dummy.m in Sources */,
-				5057C8D6229FDAE900243DF8 /* AnimationLight.swift in Sources */,
-				5057C8E5229FDB3D00243DF8 /* ALContentView.swift in Sources */,
-				5057C8D8229FDAE900243DF8 /* AnimationRay.swift in Sources */,
-				5057C8E4229FDB3D00243DF8 /* ALView.swift in Sources */,
-				5057C8D7229FDAE900243DF8 /* AnimationCircleLight.swift in Sources */,
-				5057C8DA229FDAE900243DF8 /* AnimationPath.swift in Sources */,
-				5057C8D9229FDAE900243DF8 /* AnimationScene.swift in Sources */,
+				5057C91E229FE82A00243DF8 /* ALContentView.swift in Sources */,
+				5057C91C229FE82A00243DF8 /* AnimationLight.swift in Sources */,
+				5057C919229FE82A00243DF8 /* AnimationPath.swift in Sources */,
+				5057C91D229FE82A00243DF8 /* AnimationRay.swift in Sources */,
+				5057C91A229FE82A00243DF8 /* AnimationScene.swift in Sources */,
+				5057C91B229FE82A00243DF8 /* AnimationCircleLight.swift in Sources */,
+				5057C91F229FE82A00243DF8 /* ALView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
