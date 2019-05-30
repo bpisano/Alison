@@ -1,0 +1,16 @@
+PODS:
+  - Alison (0.1.0)
+
+DEPENDENCIES:
+  - Alison (from `../`)
+
+EXTERNAL SOURCES:
+  Alison:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alison: fcaf983ec0af908cba70e791ea2bd6c42e9b686d
+
+PODFILE CHECKSUM: 0dbecf7cde9e6d1b9b639ffada1318d0fb79e19d
+
+COCOAPODS: 1.6.1

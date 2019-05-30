@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SWd-ld-2CP" userLabel="AlisonContentView" customClass="ALContentView" customModule="Alison" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ziu-eD-k6y" customClass="SKView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ziu-eD-k6y" firstAttribute="top" secondItem="SWd-ld-2CP" secondAttribute="top" id="8fT-Gt-Web"/>
+                <constraint firstItem="ziu-eD-k6y" firstAttribute="leading" secondItem="6SN-Ta-PDn" secondAttribute="leading" id="VgS-UL-ek5"/>
+                <constraint firstItem="ziu-eD-k6y" firstAttribute="trailing" secondItem="6SN-Ta-PDn" secondAttribute="trailing" id="jYT-L0-NPU"/>
+                <constraint firstAttribute="bottom" secondItem="ziu-eD-k6y" secondAttribute="bottom" id="z21-Kx-zgq"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="6SN-Ta-PDn"/>
+            <connections>
+                <outlet property="animationView" destination="ziu-eD-k6y" id="fdY-OV-gly"/>
+            </connections>
+            <point key="canvasLocation" x="-184.05797101449278" y="-347.54464285714283"/>
+        </view>
+    </objects>
+</document>
