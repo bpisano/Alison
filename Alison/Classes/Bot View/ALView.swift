@@ -13,14 +13,29 @@ public final class ALView: UIView {
     
     private var contentView: ALContentView?
     
+    /// The speed of the rays. Default value is 4.2.
     @IBInspectable public var raySpeed: CGFloat = 4.2 { didSet { loadScene() } }
+    
+    /// The radius of the rays. Default value is 8.
     @IBInspectable public var rayRadius: CGFloat = 8 { didSet { loadScene() } }
+    
+    /// The length of the rays. Default value is 5.
     @IBInspectable public var rayLenght: CGFloat = 5 { didSet { loadScene() } }
+    
+    /// The number of ray of Alison. Default value is 3.
     @IBInspectable public var rayCount: CGFloat = 3 { didSet { loadScene() } }
     
+    
+    /// The frist color of the normal rays gradient.
     @IBInspectable public var normalPrimaryColor: UIColor = UIColor(red: 17/255, green: 255/255, blue: 137/255, alpha: 1) { didSet { updateUI() } }
+    
+    /// The last color of the normal rays gradient.
     @IBInspectable public var normalSecondaryColor: UIColor? = UIColor(red: 86/255, green: 216/255, blue: 255/255, alpha: 1) { didSet { updateUI() } }
+    
+    /// The frist color of the thinking rays gradient.
     @IBInspectable public var thinkingPrimaryColor: UIColor = UIColor(red: 255/255, green: 0/255, blue: 255/255, alpha: 1) { didSet { updateUI() } }
+    
+    /// The last color of the thinking rays gradient.
     @IBInspectable public var thinkingSecondaryColor: UIColor? = UIColor(red: 0/255, green: 255/255, blue: 202/255, alpha: 1) { didSet { updateUI() } }
     
     override public func awakeFromNib() {
@@ -73,10 +88,12 @@ public final class ALView: UIView {
     
     // MARK: - Appearance
     
+    /// Set Alison to the normal state.
     public func setNormalState() {
         contentView?.scene?.setNormalState()
     }
     
+    /// Set Alison to the thinking state.
     public func setThinkingState() {
         contentView?.scene?.setThinkingState()
     }
