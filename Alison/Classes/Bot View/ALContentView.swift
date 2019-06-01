@@ -27,13 +27,13 @@ internal class ALContentView: UIView {
         animationView.backgroundColor = UIColor.clear
     }
     
-    internal func loadScene(raySpeed: CGFloat, rayRadius: CGFloat, rayLenght: CGFloat, rayCount: CGFloat) {
+    internal func loadScene(raySpeed: CGFloat, rayRadius: CGFloat, rayLength: CGFloat, rayCount: CGFloat) {
         clearScene()
         
         let animationScene = AnimationScene()
         animationScene.raySpeed = raySpeed
         animationScene.rayRadius = rayRadius
-        animationScene.rayLenght = rayLenght
+        animationScene.rayLength = rayLength
         animationScene.rayCount = rayCount
         animationScene.scaleMode = .resizeFill
         

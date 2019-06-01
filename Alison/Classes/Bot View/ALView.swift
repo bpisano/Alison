@@ -20,7 +20,7 @@ public final class ALView: UIView {
     @IBInspectable public var rayRadius: CGFloat = 8 { didSet { loadScene() } }
     
     /// The length of the rays. Default value is 5.
-    @IBInspectable public var rayLenght: CGFloat = 5 { didSet { loadScene() } }
+    @IBInspectable public var rayLength: CGFloat = 5 { didSet { loadScene() } }
     
     /// The number of ray of Alison. Default value is 3.
     @IBInspectable public var rayCount: CGFloat = 3 { didSet { loadScene() } }
@@ -71,7 +71,7 @@ public final class ALView: UIView {
     }
     
     private func loadScene() {
-        contentView?.loadScene(raySpeed: raySpeed, rayRadius: rayRadius, rayLenght: rayLenght, rayCount: rayCount)
+        contentView?.loadScene(raySpeed: raySpeed, rayRadius: rayRadius, rayLength: rayLength, rayCount: rayCount)
     }
     
     // MARK: - Layout

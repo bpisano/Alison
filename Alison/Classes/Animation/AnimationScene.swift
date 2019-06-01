@@ -12,7 +12,7 @@ internal class AnimationScene: SKScene {
     
     internal var raySpeed: CGFloat = 4.2
     internal var rayRadius: CGFloat = 8
-    internal var rayLenght: CGFloat = 5
+    internal var rayLength: CGFloat = 5
     internal var rayCount: CGFloat = 3
     
     internal var rays: [AnimationRay] = []
@@ -44,7 +44,7 @@ internal class AnimationScene: SKScene {
     }
     
     private func addCircleRay() {
-        let circle = AnimationRay(circleRadius: frame.width / 2 - (rayRadius / 2) - 5, speed: raySpeed, rayRadius: rayRadius, rayLenght: rayLenght)
+        let circle = AnimationRay(circleRadius: frame.width / 2 - (rayRadius / 2) - 5, speed: raySpeed, rayRadius: rayRadius, rayLength: rayLength)
         circle.addTo(scene: self)
         
         rays.append(circle)
@@ -55,7 +55,7 @@ internal class AnimationScene: SKScene {
             let rotation: CGFloat = (CGFloat.pi / (rayCount + 1)) * CGFloat(i)
             let clocwise: Bool = i % 2 == 0
             let speed: CGFloat = CGFloat.random(in: (raySpeed - (raySpeed / 4))..<(raySpeed + (raySpeed / 4)))
-            let ray = AnimationRay(petalNumber: 2, spacing: 6, clockwise: clocwise, radius: frame.width / 2 - (rayRadius / 2) - 5, rotation: rotation, speed: speed, rayRadius: rayRadius, rayLenght: rayLenght - (rayLenght / 1.8))
+            let ray = AnimationRay(petalNumber: 2, spacing: 6, clockwise: clocwise, radius: frame.width / 2 - (rayRadius / 2) - 5, rotation: rotation, speed: speed, rayRadius: rayRadius, rayLength: rayLength - (rayLength / 1.8))
             
             ray.addTo(scene: self)
             
