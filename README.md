@@ -32,7 +32,7 @@ Alison is fully customizable. You can change various parameters to adapt it to y
 let animationView = ALView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
 
 animationView.rayCount = 5
-animationView.rayLenght = 6
+animationView.rayLength = 6
 animationView.rayRadius = 5
 animationView.raySpeed = 6
 

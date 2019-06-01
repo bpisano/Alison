@@ -28,7 +28,7 @@ internal class AnimationRay: NSObject {
     
     private var speed: CGFloat
     private var rayRadius: CGFloat
-    private var rayLenght: CGFloat
+    private var rayLength: CGFloat
     
     private var state: AnimationRay.State = .normal
     
@@ -55,11 +55,11 @@ internal class AnimationRay: NSObject {
     
     // MARK: - Init
     
-    init(circleRadius: CGFloat, speed: CGFloat, rayRadius: CGFloat, rayLenght: CGFloat) {
+    init(circleRadius: CGFloat, speed: CGFloat, rayRadius: CGFloat, rayLength: CGFloat) {
         self.lightNode = AnimationLight(color: UIColor.white)
         self.shape = .circle
         self.rayRadius = rayRadius * AnimationRay.radiusMutliplier
-        self.rayLenght = rayLenght
+        self.rayLength = rayLength
         self.speed = speed * AnimationRay.speedMultiplier
         
         let texture = SKTexture(image: UIImage(named: "Ray_spark", in: Bundle(for: AnimationRay.self), compatibleWith: nil)!)
@@ -77,11 +77,11 @@ internal class AnimationRay: NSObject {
         startAnimation(path: path)
     }
     
-    init(petalNumber: CGFloat = 2, spacing: CGFloat = 16, clockwise: Bool = true, radius: CGFloat, rotation: CGFloat, speed: CGFloat, rayRadius: CGFloat, rayLenght: CGFloat) {
+    init(petalNumber: CGFloat = 2, spacing: CGFloat = 16, clockwise: Bool = true, radius: CGFloat, rotation: CGFloat, speed: CGFloat, rayRadius: CGFloat, rayLength: CGFloat) {
         self.lightNode = AnimationLight(color: UIColor.white)
         self.shape = .oval
         self.rayRadius = rayRadius * AnimationRay.radiusMutliplier
-        self.rayLenght = rayLenght
+        self.rayLength = rayLength
         self.speed = speed * AnimationRay.speedMultiplier
         
         let texture = SKTexture(image: UIImage(named: "Ray_spark", in: Bundle(for: AnimationRay.self), compatibleWith: nil)!)
@@ -169,9 +169,9 @@ internal class AnimationRay: NSObject {
         
         let completion = SKAction.run {
             if self.shape == .circle {
-                self.emitter.particleAlphaSpeed = -1 / self.rayLenght
+                self.emitter.particleAlphaSpeed = -1 / self.rayLength
             } else {
-                self.emitter.particleAlphaSpeed = -1 / (self.rayLenght + self.rayLenght / 4)
+                self.emitter.particleAlphaSpeed = -1 / (self.rayLength + self.rayLength / 4)
             }
             
             self.emitter.particleBirthRate = 120 + (self.speed / AnimationRay.speedMultiplier)
@@ -189,9 +189,9 @@ internal class AnimationRay: NSObject {
         state = .thinking
         
         if shape == .circle {
-            emitter.particleAlphaSpeed = (-1 / rayLenght) * 3
+            emitter.particleAlphaSpeed = (-1 / rayLength) * 3
         } else {
-            emitter.particleAlphaSpeed = (-1 / (rayLenght + rayLenght / 4)) * 3
+            emitter.particleAlphaSpeed = (-1 / (rayLength + rayLength / 4)) * 3
         }
         
         emitter.particleBirthRate = (120 + (speed / AnimationRay.speedMultiplier)) * 2
